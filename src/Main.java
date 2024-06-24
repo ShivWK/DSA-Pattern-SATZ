@@ -455,3 +455,6 @@ class HelloWorld {
         System.out.println(num);
     }
 }
+//git remote add origin https://github.com/ShivWK/DSA-Pattern-SATZ.git
+//git branch -M main
+//git push -u origin main
