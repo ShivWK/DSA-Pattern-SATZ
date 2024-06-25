@@ -441,7 +441,7 @@ import java.util.Scanner;
 class HelloWorld {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        System.out.print("Enter the number of rows ");
+        System.out.print("Enter the number ");
         int n = obj.nextInt();
         int counter =0;
 //        while(n>0){

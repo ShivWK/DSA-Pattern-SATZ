@@ -2,7 +2,7 @@ import java.util.Scanner;
 class BasicMarhs {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        System.out.print("Enter the number of rows ");
+        System.out.println("Enter the number ");
         int n = obj.nextInt();
 //        int counter = 0;
 ////        while(n>0){
@@ -84,20 +84,20 @@ class BasicMarhs {
 //        }
 
         // CHECK PRIME NUMBER
-        int count =0;
-        for (int i=1; i*i<=n; i++){
-            if(n%i == 0){
-                count++;
-                if(n/i != i){
-                    count++;
-                }
-            }
-        }
-        if(count == 2){
-            System.out.println("yes prime");
-        }else{
-            System.out.println("Not a prime");
-        }
+//        int count =0;
+//        for (int i=1; i*i<=n; i++){
+//            if(n%i == 0){
+//                count++;
+//                if(n/i != i){
+//                    count++;
+//                }
+//            }
+//        }
+//        if(count == 2){
+//            System.out.println("yes prime");
+//        }else{
+//            System.out.println("Not a prime");
+//        }
 
 
         //sum of all divisors
@@ -107,7 +107,29 @@ class BasicMarhs {
 //                sum += i;
 //            }
 //        }
-//        System.out.println(sum);;
+//        System.out.println(sum);
+
+        //HCF GCD
+//        System.out.println("Give second number ");
+//        int b = obj.nextInt();
+//
+//        while (n > 0 && b > 0){
+//            if(n>b){
+//               n = n%b;
+//                System.out.println(n);
+//            }else{
+//                b = b%n;
+//                System.out.println(b);
+//            }
+//        }
+//        if(n==0){
+//            System.out.println(b);
+//        }else{
+//            System.out.println(n);
+//        }
+//        System.out.println(10%2);
+
+
     }
 }
 
