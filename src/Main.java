@@ -437,11 +437,12 @@ import java.util.Scanner;
 //    }
 //}
 
-//complex n on outer border n-1 in inner square border n-2 in inner dusra border till end
+//complex n on outer border n-1 in inner square border n-2 in inner dusra border till end not done
 class HelloWorld {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.print("Enter the number ");
+        //finding factors, reversing
         int n = obj.nextInt();
         int counter =0;
 //        while(n>0){
@@ -455,6 +456,3 @@ class HelloWorld {
         System.out.println(num);
     }
 }
-//git remote add origin https://github.com/ShivWK/DSA-Pattern-SATZ.git
-//git branch -M main
-//git push -u origin main

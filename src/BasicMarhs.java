@@ -1,9 +1,13 @@
 import java.util.Scanner;
 class BasicMarhs {
     public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
-        System.out.println("Enter the number ");
-        int n = obj.nextInt();
+        int n =5;
+        int arr1[]={1,2,3,4,5};
+        resarr(arr1, n);
+    }
+//        Scanner obj = new Scanner(System.in);
+//        System.out.println("Enter the number ");
+//        int n = obj.nextInt();
 //        int counter = 0;
 ////        while(n>0){
 ////            long lastdigit = n % 10;
@@ -129,7 +133,18 @@ class BasicMarhs {
 //        }
 //        System.out.println(10%2);
 
-
+    //reverse an array
+    static void printarray(int array2[], int n){
+        for(int i =0; i<n; i++){
+            System.out.print(array2[i]+" ");
+        }
+    }
+    static void resarr(int array[], int n){
+        int[] resarry= new int[n];
+        for(int i =1; i<=n; i++){
+            resarry[i-1]=array[n-i];
+        }
+        printarray(resarry, n);
     }
 }
 
