@@ -6,7 +6,7 @@ class BasicMarhs {
 //        resarr(arr1, n);
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the number ");
-        int n = obj.nextInt();
+        long n = obj.nextLong();
         sum(n);
 
     }
@@ -152,11 +152,12 @@ class BasicMarhs {
 //        printarray(resarry, n);
 //    }
     //Sum of n numbers
-    static int sum =0;
-    static void sum(int k){
+    static long sum =0;
+    static void sum(long k){
         if(k < 1){
             System.out.println(sum);
             //return;
+            //dont works for number greater than 5 digits
         }else{
             sum += k;
             k--;
