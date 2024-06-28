@@ -152,17 +152,35 @@ class BasicMarhs {
 //        printarray(resarry, n);
 //    }
     //Sum of n numbers
-    static long sum =0;
+//    static long sum =0;
+//    static void sum(long k){
+//        if(k < 1){
+//            System.out.println(sum);
+//            //return;
+//            //dont works for number greater than 5 digits
+//        }else{
+//            sum += k;
+//            k--;
+//            sum(k);
+//        }
+//    }
+    //another approach
+//    static long sum(long k){
+//        if(k == 0){
+//            return 0;
+//        }else{
+//            //stackoverflows due very large number of calls caused due to very large number
+//            return k + sum(k-1);
+//        }
+//    }
+
+    //summation with loop
     static void sum(long k){
-        if(k < 1){
-            System.out.println(sum);
-            //return;
-            //dont works for number greater than 5 digits
-        }else{
-            sum += k;
-            k--;
-            sum(k);
+        long sum =0;
+        for(long i=1; i<=k; i++){
+            sum += i;
         }
+        System.out.println(sum);
     }
 }
 
