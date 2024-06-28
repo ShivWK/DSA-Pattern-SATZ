@@ -156,7 +156,7 @@ class BasicMarhs {
     static void sum(int k){
         if(k < 1){
             System.out.println(sum);
-            return;
+            //return;
         }else{
             sum += k;
             k--;
