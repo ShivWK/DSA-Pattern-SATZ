@@ -1,9 +1,14 @@
 import java.util.Scanner;
 class BasicMarhs {
     public static void main(String[] args) {
-        int n =5;
-        int arr1[]={1,2,3,4,5};
-        resarr(arr1, n);
+//        int n =5;
+//        int arr1[]={1,2,3,4,5};
+//        resarr(arr1, n);
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter the number ");
+        int n = obj.nextInt();
+        sum(n);
+
     }
 //        Scanner obj = new Scanner(System.in);
 //        System.out.println("Enter the number ");
@@ -134,17 +139,29 @@ class BasicMarhs {
 //        System.out.println(10%2);
 
     //reverse an array
-    static void printarray(int array2[], int n){
-        for(int i =0; i<n; i++){
-            System.out.print(array2[i]+" ");
+//    static void printarray(int array2[], int n){
+//        for(int i =0; i<n; i++){
+//            System.out.print(array2[i]+" ");
+//        }
+//    }
+//    static void resarr(int array[], int n){
+//        int[] resarry= new int[n];
+//        for(int i =1; i<=n; i++){
+//            resarry[i-1]=array[n-i];
+//        }
+//        printarray(resarry, n);
+//    }
+    //Sum of n numbers
+    static int sum =0;
+    static void sum(int k){
+        if(k < 1){
+            System.out.println(sum);
+            return;
+        }else{
+            sum += k;
+            k--;
+            sum(k);
         }
-    }
-    static void resarr(int array[], int n){
-        int[] resarry= new int[n];
-        for(int i =1; i<=n; i++){
-            resarry[i-1]=array[n-i];
-        }
-        printarray(resarry, n);
     }
 }
 
