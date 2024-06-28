@@ -1,56 +1,46 @@
 import java.util.Scanner;
-//square
-//class HelloWorld {
-//    public static void main(String[] args) {
+
+class HelloWorld {
+    public static void main(String[] args) {
+        //square
 //        for (int i=0; i<5; i++){
 //            for (int j=0; j<=4; j++){
 //                System.out.print("*"+' ');
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
 
 //triangular with stars
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        for (int i=0; i<5; i++){
 //            for (int j=0; j<=i; j++){
 //                System.out.print("*"+' ');
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
 
 //triangular but numbers not stars
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        for (int i=0; i<5; i++){
 //            for (int j=0; j<=i; j++){
 //                System.out.print((j+1)+" ");
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
+
 
 //printing the same but without increasing it
 //only printing the row number
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        for (int i=1; i<=5; i++){
 //            for (int j=0; j<i; j++){
 //                System.out.print(i+" ");
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
+
 
 //inverted triangle
-//class HelloWorld {
-//    public static void main(String[] args) {
 //
 //        //one approach
 //        for (int i=1; i<=5; i++){
@@ -60,11 +50,9 @@ import java.util.Scanner;
 //            System.out.println();
 //        }
 //
-//    }
-//}
 
-//class HelloWorld {
-//    public static void main(String[] args) {
+
+//Write which pattern
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -84,31 +72,24 @@ import java.util.Scanner;
 //            System.out.println();
 //        }
 //
-//    }
-//}
 
 //pyramidal structure
-//class HelloWorld {
-//    public static void main(String[] args) {
-//        for(int i=0; i<5; i++){
-//            for(int j=0; j<(5-i-1); j++){
+
+//        for (int i = 0; i < 5; i++) {
+//            for (int j = 0; j < (5 - i - 1); j++) {
 //                System.out.print(" ");
 //            }
-//            for(int j=0; j<(2*i+1); j++){
+//            for (int j = 0; j < (2 * i + 1); j++) {
 //                System.out.print("*");
 //            }
-//            for(int l=0; l<(5-i-1); l++){
+//            for (int l = 0; l < (5 - i - 1); l++) {
 //                System.out.print(" ");
 //            }
 //            System.out.println();
-//            }
-//    }
-//}
+//        }
+//
 
 //Pyramid of different type
-
-//class HelloWorld {
-//    public static void main(String[] args) {
 //
 //        for (int i=1; i<=5; i++){
 //            for(int s=5; s>i; s--){
@@ -119,12 +100,10 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
+//
 
 //inverted pyramid
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        for(int i=0; i<5; i++){
 //            for(int j=0; j<i; j++){
 //                System.out.print(" ");
@@ -141,8 +120,6 @@ import java.util.Scanner;
 //}
 
 //pyramidal structure up and down
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        for(int i=0; i<5; i++){
 //            for(int j=0; j<(5-i-1); j++){
 //                System.out.print(" ");
@@ -156,25 +133,21 @@ import java.util.Scanner;
 //            System.out.println();
 //            }
 //
-//         for(int i=0; i<5; i++){
-//            for(int j=0; j<i; j++){
-//                System.out.print(" ");
-//            }
-//            for(int j=0; j<2*5 - (2*i+1); j++){
-//                System.out.print("*");
-//            }
-//            for(int l=0; l<i; l++){
-//                System.out.print(" ");
-//            }
-//            System.out.println();
+//         for(int i=0; i<5; i++) {
+//             for (int j = 0; j < i; j++) {
+//                 System.out.print(" ");
+//             }
+//             for (int j = 0; j < 2 * 5 - (2 * i + 1); j++) {
+//                 System.out.print("*");
+//             }
+//             for (int l = 0; l < i; l++) {
+//                 System.out.print(" ");
+//             }
+//             System.out.println();
 //         }
-//      }
-//}
 
 //triangle up and down without a comman  line
 
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -186,13 +159,9 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
 
 //1 0 1 0 triangle
 
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -206,13 +175,9 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
 
 //numbers having M shape
 
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -226,13 +191,9 @@ import java.util.Scanner;
 //
 //            System.out.println();
 //        }
-//    }
-//}
 
 //printring abcd as a triangle
 
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -245,13 +206,9 @@ import java.util.Scanner;
 //
 //            System.out.println();
 //        }
-//    }
-//}
 
 //printing same alphabetical triangle but up side down
 
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -264,13 +221,9 @@ import java.util.Scanner;
 //
 //            System.out.println();
 //        }
-//    }
-//}
 
 //printing alphabets in triangle but w/o increasing
 
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -283,12 +236,9 @@ import java.util.Scanner;
 //            ch++;
 //            System.out.println();
 //        }
-//    }
-//}
 
 //pyramidal structure
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -310,16 +260,13 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //            }
-//    }
-//}
 
 //E
 //D E
 //C D E
 //B C D E
 //A B C D E
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 ////        Scanner obj = new Scanner(System.in);
 ////        System.out.print("Enter the number of rows ");
 ////        int n = obj.nextInt();
@@ -331,12 +278,10 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
+
 
 //dynamic logic
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -350,12 +295,8 @@ import java.util.Scanner;
 ////            chr=(char)(chr-i);
 //            System.out.println();
 //        }
-//    }
-//}
 
 //square shape stars and a barfi inide it
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -383,12 +324,8 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
 
 //x shape starts in side regions
-//class HelloWorld {
-//    public static void main(String[] args) {
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -414,12 +351,9 @@ import java.util.Scanner;
 //
 //            System.out.println();
 //        }
-//    }
-//}
 
 //Square through stars
-//class HelloWorld {
-//    public static void main(String[] args) {
+
 //        Scanner obj = new Scanner(System.in);
 //        System.out.print("Enter the number of rows ");
 //        int n = obj.nextInt();
@@ -434,25 +368,9 @@ import java.util.Scanner;
 //            }
 //            System.out.println();
 //        }
-//    }
-//}
 
-//complex n on outer border n-1 in inner square border n-2 in inner dusra border till end not done
-class HelloWorld {
-    public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
-        System.out.print("Enter the number ");
-        //finding factors, reversing
-        int n = obj.nextInt();
-        int counter =0;
-//        while(n>0){
-//            long lastdigit = n % 10;
-//            System.out.print(lastdigit);
-//            n /= 10;
-            int num = (int)(Math.log10(n)+1);
+//
+////complex n on outer border n-1 in inner square border n-2 in inner dusra border till end not done
 
-//        }
-        System.out.println();
-        System.out.println(num);
     }
 }

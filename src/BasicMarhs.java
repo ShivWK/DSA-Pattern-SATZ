@@ -10,6 +10,8 @@ class BasicMarhs {
         sum(n);
 
     }
+
+    //finding factors, reversing
 //        Scanner obj = new Scanner(System.in);
 //        System.out.println("Enter the number ");
 //        int n = obj.nextInt();
@@ -24,7 +26,7 @@ class BasicMarhs {
 //        System.out.println();
 //        System.out.println(num);
 
-        //reverse the given number
+    //reverse the given number
 
 //        int reverse =0;
 //        while(n>0){
@@ -34,7 +36,7 @@ class BasicMarhs {
 //        }
 //        System.out.println(reverse);
 
-        //palindrom checher
+        //palindrom checker
 //        int originalValue = n;
 //        int reverse =0;
 //        while(n>0){
