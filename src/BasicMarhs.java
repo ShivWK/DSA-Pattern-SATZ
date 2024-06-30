@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 class BasicMarhs {
     public static void main(String[] args) {
@@ -7,7 +8,7 @@ class BasicMarhs {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the number ");
         long n = obj.nextLong();
-        sum(n);
+        System.out.println(fact(n));;
 
     }
 
@@ -177,12 +178,32 @@ class BasicMarhs {
 //    }
 
     //summation with loop
-    static void sum(long k){
-        long sum =0;
-        for(long i=1; i<=k; i++){
-            sum += i;
+//    static void sum(long k){
+//        long sum =0;
+//        for(long i=1; i<=k; i++){
+//            sum += i;
+//        }
+//        System.out.println(sum);
+//    }
+
+    //factorial of number by recursion , dont return 0 if base case becomes true otherwise it will make everything 0 and in output we will get 0
+    // it will be like if n = 4, then factorial 4 x 3 x 2 x 1. but if we return 0 then at second place we'll get 0 eveytime
+
+//    static long fact(long k){
+//        if(k == 0){
+//            return 1;
+//        }else{
+//            //stackoverflows due very large number of calls caused due to very large number
+//            return k * fact(k-1);
+//        }
+//    }
+
+    public static BigInteger fact(long k) {
+        BigInteger result = BigInteger.ONE;
+        for (long i = 1; i <= k; i++) {
+            result = result.multiply(BigInteger.valueOf(i));
         }
-        System.out.println(sum);
+        return result;
     }
 }
 
