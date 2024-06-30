@@ -8,7 +8,7 @@ class BasicMarhs {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the number ");
         long n = obj.nextLong();
-        System.out.println(fact(n));;
+        System.out.println(fact(n));
 
     }
 
